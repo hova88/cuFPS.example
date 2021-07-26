@@ -6,7 +6,7 @@
 * And, i also use [Open3d.Python](https://github.com/intel-isl/Open3D) for visual description, in order to clearly understand the useage of this algorithm.
 
 # Sketch Map
-
+![sketch](docs/fps-sketch.jpg)
 
 # Usage
 
