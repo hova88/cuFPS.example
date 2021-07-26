@@ -9,7 +9,16 @@
 ![sketch](docs/fps-sketch.jpg)
 
 # Usage
-
+```bash
+mkdir build && cd build
+cmake .. && make 
+./fps_test > demo.txt
+python ../tools/viewer.py
+```
 
 # Visualization
 
+# Reference
+* [Pointnet2.Pytorch](https://github.com/sshaoshuai/Pointnet2.PyTorch)
+* [Pointnet2_Pytorch](https://github.com/erikwijmans/Pointnet2_PyTorch) 
+* [Farthest Point Sampling (FPS)算法核心思想解析](https://zhuanlan.zhihu.com/p/114522377)
