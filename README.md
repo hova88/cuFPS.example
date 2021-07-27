@@ -17,6 +17,7 @@ python ../tools/viewer.py
 ```
 
 # Visualization
+![demo](docs/fps-demo.jpg)
 
 # Reference
 * [Pointnet2.Pytorch](https://github.com/sshaoshuai/Pointnet2.PyTorch)
