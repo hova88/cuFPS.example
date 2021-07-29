@@ -1,9 +1,6 @@
 #include <stdio.h>
 #include "utils.cc"
 #include "src/fps.h"
-#include "src/gather.h"
-#include "src/ball_query.h"
-#include "src/interpolate.h"
 
 
 int main() 
@@ -47,6 +44,5 @@ int main()
     cudaFree(dev_temp);
     cudaFree(dev_cloud);
     cudaFree(dev_idx);
-    cudaFree(dev_out);
     return 0;
 }
